@@ -37,6 +37,10 @@ public class JavaFirstProgram {
 		// 5. String - is a class in java, it is not a datatype. 
 		// We can use as a datatype.
 		String s = "Selenium"; // String should be in double cout "".
+		String s1 = "100";
+		String s2 = "!@#$%%*(";
+		String s3 = "500";
+		System.out.println(s3+s1);
 		
 	}
 
