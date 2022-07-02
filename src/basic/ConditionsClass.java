@@ -21,7 +21,9 @@ public class ConditionsClass {
 		// == : 
 		
 		
-		if (m==n) {
+		// difference between equals and == ?
+		
+		if (m==n) {   
 			System.out.println("m & n both are same");
 		} else {
 			System.out.println("m & n both are not same");

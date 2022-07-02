@@ -25,7 +25,7 @@ public class JavaFirstProgram {
 		
 		// 3. Char
 		char c1 = 'A';  // char should be in single cout ''
-		char c2 = 'd';
+		char [] c2 = {'d','e','v'};
 		System.out.println(c2);
 		
 		// 4. Boolean true or false 
@@ -41,6 +41,21 @@ public class JavaFirstProgram {
 		String s2 = "!@#$%%*(";
 		String s3 = "500";
 		System.out.println(s3+s1);
+		
+//		String str = new String(c);
+		
+		String str = new String("100");
+		
+		String str2 =  " ab c "; 
+		String str3 =  "ab c";
+		
+		String trim = str2.trim();
+		System.out.println("Before trim:" +str2);
+		System.out.println("Afetr Trim:"+trim);
+		
+		int k = 1234;
+		String str5 = Integer.toString(k);
+		Integer abc = Integer.valueOf(str5);
 		
 	}
 

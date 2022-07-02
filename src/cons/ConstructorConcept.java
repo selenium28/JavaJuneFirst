@@ -19,7 +19,7 @@ public class ConstructorConcept {
 		sum();
 	}
 	
-	private void sum() {
+	 void sum() {
 		System.out.println("I'm inside method");
 	}
 

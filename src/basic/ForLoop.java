@@ -13,6 +13,7 @@ public class ForLoop {
 
 		System.out.println("*******************");
 		
+		//Initialization, condition, Decrement
 		for (int j=10; j>=1; j--) {
 			System.out.println(j);
 		}
